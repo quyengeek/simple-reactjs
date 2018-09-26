@@ -2,7 +2,12 @@ import React, {Component} from 'react';
 
 import './NewArrivals.css';
 
+const data =[
+
+]
+
 export default class NewArrivals extends Component {
+
     render () {
         return (
             <div className="new_arrivals">

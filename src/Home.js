@@ -4,10 +4,10 @@ import logo from './logo.svg';
 import Header from './components/Header';
 import MenuOverlay from "./components/MenuOverlay";
 import HamburgerMenu from "./components/HamburgerMenu";
-import Slider from "./components/Home/Slider";
-import Banner from "./components/Home/Banner";
-import NewArrivals from "./components/Home/NewArrivals";
-import DealOfTheWeek from "./components/Home/DealOfTheWeek";
+import Slider from "./container/Home/Slider";
+import Banner from "./container/Home/Banner";
+import NewArrivals from "./container/Home/NewArrivals";
+import DealOfTheWeek from "./container/Home/DealOfTheWeek";
 import Benefit from "./components/Benefit";
 import Footer from "./components/Footer";
 

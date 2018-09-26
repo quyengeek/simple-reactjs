@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
 
-import './ProductGrid.css';
+import './ProductCard.css';
 
-export default class ProductGrid extends Component {
+import Thumbnail from "./Thumbnail.jsx"
+import AddToCart from "./AddToCart";
+
+export default class ProductCard extends Component {
     render () {
         return (
             <div className="row">
@@ -11,20 +14,19 @@ export default class ProductGrid extends Component {
 
                         <div className="product-item men">
                             <div className="product discount product_filter">
-                                <div className="product_image">
-                                    <img src="assets/images/product_1.png" alt=""/>
-                                </div>
+                                <Thumbnail/>
                                 <div className="favorite favorite_left"></div>
                                 <div
                                     className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
                                     <span>-$20</span></div>
                                 <div className="product_info">
-                                    <h6 className="product_name"><a href="single.html">Fujifilm X100T 16 MP Digital
-                                        Camera (Silver)</a></h6>
+                                    <h6 className="product_name">
+                                        <a href="single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a>
+                                    </h6>
                                     <div className="product_price">$520.00<span>$590.00</span></div>
                                 </div>
                             </div>
-                            <div className="red_button add_to_cart_button"><a href="#">add to cart</a></div>
+                            <AddToCart/>
                         </div>
 
                         <div className="product-item women">
